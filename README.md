@@ -1,0 +1,2 @@
+# Tiger brokers Automated options strategy builder
+ In the past, You could not send options combo strategies straight to tiger brokers, instead needing to purchase each leg in the strategy seperately. This costs time and potentially wastes profits due to price fluctuations. This application aims to solve that problem by building your custom options strategy, and then allowing it to purchase all legs at once at the current market price.
