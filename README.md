@@ -36,15 +36,15 @@ Again, I recommend only using your developer demo account for this.
 ## Steps
 1. In the folder, there are 3 files. as shown below:
    
-  ![Instructions_1](https://github.com/Kinneh04/Tiger-brokers-Automated-options-strategy-builder/assets/82500628/5ebb708f-2b31-417f-973d-5fcf5cc5679b)
+![Instructions_1](https://github.com/Kinneh04/Tiger-brokers-Automated-options-strategy-builder/assets/82500628/5ebb708f-2b31-417f-973d-5fcf5cc5679b)
 2. Open up CustomCfg.Config in Notepad or VSCode and enter in your tiger ID and account ID
 
 
-  ![Instructions_2](https://github.com/Kinneh04/Tiger-brokers-Automated-options-strategy-builder/assets/82500628/a65b4811-20d4-4240-959b-0a234c8c4a36)
+![Instructions_2](https://github.com/Kinneh04/Tiger-brokers-Automated-options-strategy-builder/assets/82500628/a65b4811-20d4-4240-959b-0a234c8c4a36)
 
 3. Save, close and open config.py in notepad or VSCode. Insert your TDAmeritrade Consumer Key, private key and AmeritradeID into the fields, as below:
 
-   ![Instructions_4](https://github.com/Kinneh04/Tiger-brokers-Automated-options-strategy-builder/assets/82500628/0bd4ac2e-3a75-48b0-8410-ae647f69f0ee)
+![Instructions_4](https://github.com/Kinneh04/Tiger-brokers-Automated-options-strategy-builder/assets/82500628/0bd4ac2e-3a75-48b0-8410-ae647f69f0ee)
 
 4. Save, close and create a new text file called Key.pem, inside the same directory as the config file
 5. Open it using notepad and insert your public RSA key.
