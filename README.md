@@ -3,6 +3,8 @@
 # Disclaimer and Dev Notes
 **DISCLAIMER: This software is for demonstration and testing purposes ONLY! Usage of this software for any financial purposes is highly unrecommended and not within the original intention of the project. The software may encounter bugs that affect the outcome of the trade. I am not a financial expert. This is not financial advice. USE AT YOUR OWN RISK**
 
+Also dont worry about it being malicious. I have no use for your data anyways :)
+
 **The project will also not receive updates**
 
 ## Overview
@@ -13,12 +15,13 @@ Currently, You cannot send options combo strategies straight to tiger brokers, i
 Clients also need to meet the corresponding conditions and have opened the option strategy permissions in order to have risks mitigated. 
 
 ## Solution
-This application aims to solve that problem by building your own custom options strategy, and then purchasing all legs at once at the current market price, allowing any user to purchase a combo strategy without needing to buy each leg seperately, saving valuable time.
+This application aims to solve that problem by allowing users to build their own custom options strategy, and then purchasing all legs at once at the current market price, allowing any user to purchase a combo strategy without needing to buy each leg seperately, saving valuable time. The application also tracks prices, shows potential gains and losses, and implements buying power checks to make sure you dont go over budget.
 
 ## Features
 * Simple, easy to use command line interface
 * Requires no priror programming / software experience
 * Hand holding style instructions
+* Gains and Losses calculations
 
 ## Pre requisites
 The application needs a few requisites before you can use it. All these requisites are free
@@ -39,8 +42,12 @@ Again, I recommend only using your developer demo account for this.
 
   ![Instructions_2](https://github.com/Kinneh04/Tiger-brokers-Automated-options-strategy-builder/assets/82500628/a65b4811-20d4-4240-959b-0a234c8c4a36)
 
-3. Save, close and create a new text file called Key.pem, inside the same directory as the config file
-4. Open it using notepad and insert your public RSA key.
+3. Save, close and open config.py in notepad or VSCode. Insert your TDAmeritrade Consumer Key, private key and AmeritradeID into the fields, as below:
+
+   ![Instructions_4](https://github.com/Kinneh04/Tiger-brokers-Automated-options-strategy-builder/assets/82500628/0bd4ac2e-3a75-48b0-8410-ae647f69f0ee)
+
+4. Save, close and create a new text file called Key.pem, inside the same directory as the config file
+5. Open it using notepad and insert your public RSA key.
 
 ![Instructions_3](https://github.com/Kinneh04/Tiger-brokers-Automated-options-strategy-builder/assets/82500628/1e32f11d-a9b5-4694-be82-d6ea1a5dab2f)
 5. Save, and open the Application exe. Follow the instructions and you should be done!
